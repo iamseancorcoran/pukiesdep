@@ -242,7 +242,7 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
 
             <div className="use-block-explorer">
-              You sick fvcks! <span className="emoji">🤮</span><br /> <strong>Connect Wallet ☝️</strong>? 
+              <h2>You sick fvcks!</h2><span className="emoji">🤮</span><br /><br /><strong>Connect Wallet ☝️</strong>? 
               or mint through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a><br />
               <br />
             </div>
