@@ -166,6 +166,7 @@ label {
     .use-block-explorer {
       &:not(:first-child) {
         @apply mt-3;
+        @apply text-center;
       }
 
       &:not(:first-child)::before {
