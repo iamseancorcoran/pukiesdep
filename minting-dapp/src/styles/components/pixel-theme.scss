@@ -5,7 +5,7 @@
 // general.scss
 
 :root {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 
 a, a:link, a:visited {
   @apply font-semibold;
-  @apply text-sky-400;
+  @apply text-amber-400;
 
   &:hover {
     @apply underline;
@@ -92,7 +92,7 @@ button {
   @apply font-semibold;
   @apply border-4 border-white;
   @apply shadow-sm;
-  @apply text-sky-400;
+  @apply text-amber-400;
 
   &:hover {
     @apply underline;
@@ -100,10 +100,10 @@ button {
 
   &.primary {
     @apply text-white;
-    @apply bg-sky-500;
+    @apply bg-amber-500;
 
     &:hover {
-      @apply bg-sky-400;
+      @apply bg-amber-400;
       @apply no-underline;
     }
 
@@ -121,14 +121,14 @@ input[type=text] {
   @apply py-2 px-4;
   
   @apply font-mono font-semibold;
-  @apply text-sky-400;
+  @apply text-amber-400;
   @apply bg-transparent;
   @apply border-4 border-white;
   @apply shadow-sm;
   @apply outline-none;
 
   &:focus {
-    @apply border-sky-300;
+    @apply border-amber-300;
   }
 
   &:disabled {
@@ -144,7 +144,7 @@ label {
   @apply mt-4 mb-1 ml-1;
 
   @apply font-semibold;
-  @apply text-sm text-sky-400;
+  @apply text-sm text-amber-400;
 }
 
 // minting-dapp-scss
@@ -159,7 +159,7 @@ label {
     @apply flex flex-col;
     @apply px-4 py-6;
     
-    @apply bg-black;
+    @apply bg-white;
     @apply border-4 border-white;
     @apply shadow;
 
@@ -185,7 +185,7 @@ label {
 
       h2 {
         @apply font-semibold;
-        @apply text-sky-400 text-xl text-center;
+        @apply text-amber-400 text-xl text-center;
       }
 
       p {
@@ -212,7 +212,7 @@ label {
 
     .spinner {
       @apply inline;
-      @apply -ml-1 mr-3 h-8 w-8 text-sky-400;
+      @apply -ml-1 mr-3 h-8 w-8 text-amber-400;
       @apply animate-spin;
     }
   }
@@ -230,7 +230,7 @@ label {
       @apply px-6 py-4;
 
       .label {
-        @apply text-xs text-sky-400;
+        @apply text-xs text-amber-400;
       }
     }
 
@@ -309,7 +309,7 @@ label {
     .preview {
       @apply p-8;
 
-      @apply bg-sky-900/50;
+      @apply bg-amber-900/50;
       
       img {
         @apply m-auto;
@@ -347,7 +347,7 @@ label {
         @apply w-full;
 
         @apply font-semibold;
-        @apply text-sky-400;
+        @apply text-amber-400;
       }
 
       .primary {
