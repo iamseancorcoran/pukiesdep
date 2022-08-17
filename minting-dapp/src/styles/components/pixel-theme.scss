@@ -12,10 +12,14 @@ body {
   @apply p-6;
   @apply min-h-screen;
 
-  @apply font-mono;
-  @apply text-white;
+  @apply font-sans;
+  @apply text-neutral-800;
 
-  @apply bg-black;
+  @apply bg-white;
+
+  background-image: url('../../images/pixel/pukies-bg.jpg');
+  backdrop-filter: brightness(0.5);
+  @apply bg-center bg-cover bg-fixed;
 }
 
 a, a:link, a:visited {
@@ -40,7 +44,7 @@ main {
   @apply w-full;
   @apply max-w-md;
 
-  content:url('../../images/pixel/logo.png')
+  content:url('../../images/pixel/pukies-logo.gif')
 }
 
 span.emoji {
