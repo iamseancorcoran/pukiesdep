@@ -221,6 +221,7 @@ label {
     @apply grid sm:grid-cols-2 auto-rows-min;
 
     @apply font-mono;
+    @apply bg-white;
     @apply text-sm;
     @apply border-4 border-white;
     @apply shadow;
