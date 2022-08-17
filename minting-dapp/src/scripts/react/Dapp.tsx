@@ -242,17 +242,16 @@ export default class Dapp extends React.Component<Props, State> {
             {!this.isWalletConnected() ? <button className="primary" disabled={this.provider === undefined} onClick={() => this.connectWallet()}>Connect Wallet</button> : null}
 
             <div className="use-block-explorer">
-              Hey, looking for a <strong>super-safe experience</strong>? <span className="emoji">😃</span><br />
-              You can interact with the smart-contract <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, without even connecting your wallet to this DAPP! <span className="emoji">🚀</span><br />
+              You sick fvcks! <span className="emoji">🤮</span><br /> <strong>Connect Wallet ☝️</strong>? 
+              or mint through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a><br />
               <br />
-              Keep safe! <span className="emoji">❤️</span>
             </div>
 
             {!this.isWalletConnected() || this.state.isWhitelistMintEnabled ?
               <div className="merkle-proof-manual-address">
                 <h2>Whitelist Proof</h2>
                 <p>
-                  Anyone can generate the proof using any public address in the list, but <strong>only the owner of that address</strong> will be able to make a successful transaction by using it.
+                  Generate proof below using your Whitelisted wallet address. <strong>Only the owner of that address</strong> will be able to make a successful transaction by using it.
                 </p>
 
                 {this.state.merkleProofManualAddressFeedbackMessage ? <div className="feedback-message">{this.state.merkleProofManualAddressFeedbackMessage}</div> : null}
