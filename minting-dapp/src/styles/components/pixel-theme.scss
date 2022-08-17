@@ -323,6 +323,7 @@ label {
 
     .price {
       @apply px-6 py-4;
+      @apply bg-white;
     }
 
     & > * {
