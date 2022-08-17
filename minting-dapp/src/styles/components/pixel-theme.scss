@@ -267,6 +267,7 @@ label {
   .cannot-mint, .not-mainnet, .collection-sold-out {
     @apply px-6 py-4;
 
+    @apply bg-white;
     @apply text-center;
     @apply border-4 border-neutral-300;
     @apply shadow;
