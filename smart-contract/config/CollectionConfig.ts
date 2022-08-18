@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.00,
     maxMintAmountPerTx: 1,
   },
-  contractAddress: "null",
+  contractAddress: "0xC2397128912f0004d34440a67c9FB7918781b355",
   marketplaceIdentifier: 'Pukies',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,

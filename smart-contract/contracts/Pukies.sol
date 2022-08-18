@@ -142,6 +142,6 @@ contract Pukies is ERC721AQueryable, Ownable, ReentrancyGuard {
     function teamMint() external onlyOwner{
         require(!teamMinted, "Pukies :: Team already minted");
         teamMinted = true;
-        _safeMint(msg.sender, 300);
+        _safeMint(msg.sender, 250);
     }
 }
