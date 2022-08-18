@@ -55,6 +55,7 @@ span.emoji {
   @apply flex flex-col;
   @apply p-3;
   
+  @apply bg-white;
   @apply text-sm;
   @apply bg-red-50;
   @apply border-4 border-red-500;
