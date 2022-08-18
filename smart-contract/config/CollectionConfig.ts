@@ -12,7 +12,7 @@ const CollectionConfig: CollectionConfigInterface = {
   contractName: 'Pukies',
   tokenName: 'Pukies',
   tokenSymbol: 'PKS',
-  hiddenMetadataUri: "ipfs://bafkreibvnudhtwgj2zcckbqs5xdulkxhuw2lkavdz3nc65mzmtytvil7lm/",
+  hiddenMetadataUri: "ipfs://bafkreibfvgunfyel5twes6yibmldkiu3webwe6jljaexjvmvddaxsjwi2y/",
   maxSupply: 5000,
   whitelistSale: {
     price: 0.00,
@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.00,
     maxMintAmountPerTx: 1,
   },
-  contractAddress: "0x31A5Cc2CBE4C1Ae51C450f2a54dd4729178d0f01",
+  contractAddress: "null",
   marketplaceIdentifier: 'Pukies',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
